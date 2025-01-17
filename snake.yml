@@ -23,6 +23,8 @@ jobs:
         uses: Platane/snk@v3
         with:
           # GitHub username to generate the animation for
+          #  zfom (comment)
+
           github_user_name: ${{ github.repository_owner }}
           # Define the output files and their configurations
           outputs: |
